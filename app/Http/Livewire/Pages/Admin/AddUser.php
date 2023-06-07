@@ -15,7 +15,7 @@ class AddUser extends Component
 
     public function render()
     {
-        return view('livewire.pages.admin.add-user');
+        return view('pages.admin.add-user');
     }
 
     public function mount()

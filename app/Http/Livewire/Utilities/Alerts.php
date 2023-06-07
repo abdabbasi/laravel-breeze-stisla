@@ -8,6 +8,6 @@ class Alerts extends Component
 {
     public function render()
     {
-        return view('livewire.utilities.alerts');
+        return view('utilities.alerts');
     }
 }

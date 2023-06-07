@@ -14,7 +14,7 @@ class ViewUser extends Component
 
     public function render()
     {
-        return view('livewire.pages.admin.view-user', [
+        return view('pages.admin.view-user', [
             'users' => User::paginate(10),
         ]);
     }

@@ -17,6 +17,17 @@ $links = [
         'is_multi' => true,
         'roles' => 'admin',
     ],
+    [
+        'href' => [
+            [
+                'section_text' => 'Listing Posts',
+                'section_list' => [['href' => 'posts', 'text' => 'Data Post'], ['href' => 'add-user', 'text' => 'Buat User']],
+            ],
+        ],
+        'text' => 'Post',
+        'is_multi' => true,
+        'roles' => 'admin',
+    ],
 ];
 $navigation_links = json_decode(json_encode($links), false);
 @endphp

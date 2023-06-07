@@ -1,5 +1,5 @@
 <div>
-    @include('livewire.utilities.alerts')
+    @include('utilities.alerts')
     <x-slot name="header">
         <div class="section-header">
             <h1>User Management</h1>
